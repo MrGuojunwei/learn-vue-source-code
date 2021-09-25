@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">{{name}}</div>
+    <script src="../dist/vue.js"></script>
+    <script>
+        // vue核心 响应式数据原理 v-model双向绑定
+        // vue2 使用defineProperty实现，通过监控数据的变化，更新视图，只要用户给数据赋值，就触发视图更新
+        const vm = new Vue({
+            data() {
+                return {
+                    name: 'zf',
+                    age: 22,
+                    address: '霍营',
+                    n: {
+                        n: 1
+                    }
+                }
+            }
+        })
+        console.log(vm._data)
+    </script>
+</body>
+</html>
