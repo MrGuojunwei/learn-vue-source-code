@@ -13,5 +13,8 @@
     "@babel/preset-env": "^7.15.6",
     "rollup": "^2.57.0",
     "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
   }
 }

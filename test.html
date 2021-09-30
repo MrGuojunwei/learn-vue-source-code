@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var res = {
+        code: 0,
+        msg: 'success',
+        data: {
+          id: 495,
+          name: 'galaxy_h5_pv_log',
+          appid: 1002444,
+          topic: 'basiclog-pv_12_1002444',
+          log_type: 3,
+          appkey: '758003a524874d34ca24838996f56036',
+          dj_type: '0',
+          store_type: '["2","1"]',
+          data_proc: 0,
+          hdfs_path: '0',
+          collect_location: '',
+          status: 2,
+          uid: 147061,
+          username: '\u7533\u9e4f',
+          audit_info: '\u901a\u8fc7',
+          index_pattern: 1,
+          cluster_id: 2,
+          output: 50,
+          qps: 100,
+          mappings: [
+            { name: '@timestamp', type: 'date' },
+            { name: 'appid', type: 'long' },
+            { name: 'beat.hostname', type: 'text' },
+            { name: 'beat.name', type: 'text' },
+            { name: 'beat.version', type: 'text' },
+            { name: 'clientid', type: 'text' },
+            { name: 'clits', type: 'long' },
+            { name: 'data.currenthref', type: 'text' },
+            { name: 'data.currentpagescreen', type: 'text' },
+            { name: 'data.eventid', type: 'text' },
+            { name: 'data.loadstatus', type: 'text' },
+            { name: 'data.log_admin_id', type: 'text' },
+            { name: 'data.log_admin_version', type: 'text' },
+            { name: 'data.logorder', type: 'text' },
+            { name: 'data.pageuid', type: 'text' },
+            { name: 'data.pageviewsize', type: 'text' },
+            { name: 'data.resolution', type: 'text' },
+            { name: 'data.rsd', type: 'text' },
+            { name: 'data.sessionid', type: 'text' },
+            { name: 'file_name', type: 'text' },
+            { name: 'host.name', type: 'text' },
+            { name: 'hostname', type: 'text' },
+            { name: 'input.type', type: 'text' },
+            { name: 'ip.cid', type: 'text' },
+            { name: 'ip.cip', type: 'text' },
+            { name: 'ip.cname', type: 'text' },
+            { name: 'log_type', type: 'text' },
+            { name: 'logid', type: 'text' },
+            { name: 'offset', type: 'long' },
+            { name: 'pageid', type: 'text' },
+            { name: 'prelogid', type: 'text' },
+            { name: 'prospector.type', type: 'text' },
+            { name: 'sessid', type: 'text' },
+            { name: 'source', type: 'text' },
+            { name: 'timestamp', type: 'long' },
+            { name: 'ua', type: 'text' },
+            { name: 'userid', type: 'text' },
+            { name: 'xes_dj_client_ip', type: 'text' },
+            { name: 'xesid', type: 'text' },
+          ],
+          report_format: 0,
+          es_alias: '',
+          depart_id: 12,
+          project: 2,
+          is_delete: 0,
+          referer: 'app.xueersi.com',
+          template_id: 0,
+          created_at: '2020-04-20 18:19:55',
+          updated_at: '2021-06-10 16:38:22',
+          kafka_active: 0.346,
+          kafka_cluster: 'log-kafka-1-jmx',
+          es_index: '879896d0-8309-11ea-9e0b-e11447d2dff3',
+          talkafka_cluster: '',
+          oss_path: '\/12\/basiclog-pv_12_1002444\/%Y%m%d\/',
+          is_prase: 1,
+          is_hdfs: 0,
+          is_oss: 1,
+          storage_cycle: 3,
+          data_model: 0,
+          storage_mode: '[2]',
+          department: '\u5e73\u53f0\u7814\u53d1\u90e8',
+          app_domain: '',
+          ip:
+            '172.17.119.40\n172.17.119.41\n172.17.119.42\n172.17.119.43\n172.17.119.44\n172.17.119.45\n172.17.15.149\n172.17.15.150\n172.17.15.151\n172.17.15.152\n172.17.15.153\n172.17.15.154',
+          hostname: '',
+          kafka_url:
+            'http:\/\/mq.xesv5.com\/grafana\/d\/H2IF1_xMz\/tal-kafka-topic-jmx?orgId=1&var-cluster=log-kafka-1-jmx&var-topic=basiclog-pv_12_1002444',
+          kibana_url:
+            "https:\/\/basiclog.xesv5.com\/app\/kibana#\/discover?_g=()&_a=(columns:!(_source),index:'879896d0-8309-11ea-9e0b-e11447d2dff3',interval:auto,query:(language:lucene,query:''),sort:!('@timestamp',desc))",
+          ip_count: 12,
+          roles: [
+            { id: 343, service_id: 495, uid: '147061' },
+            { id: 6261, service_id: 495, uid: '091383' },
+            { id: 12939, service_id: 495, uid: '098412' },
+            { id: 13224, service_id: 495, uid: '091378' },
+          ],
+        },
+      }
+
+      //   新的res
+      res = {
+        code: 0,
+        msg: 'success',
+        data: {
+          id: 751,
+          name: '活动埋点日志',
+          appid: 1001132,
+          topic: 'basiclog-interactive_1001132',
+          log_type: 1,
+          appkey: 'e6b7d4993f70f873b89850f5449a3148',
+          dj_type: 0,
+          store_type: '["2","1"]',
+          data_proc: 0,
+          hdfs_path:
+            '/vdata/servicelog/wangxiao/wx_base_arch/logs/21/basiclog-interactive_1001132/%Y%m%d/',
+          collect_location: '',
+          status: 2,
+          uid: 142600,
+          username: '贺杰',
+          audit_info: '通过',
+          index_pattern: 1,
+          cluster_id: 12,
+          output: 1,
+          qps: 50,
+          mappings: [
+            {
+              name: 'appid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'clientid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'clits',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.ab_flag',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.action',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.adsite_id',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.ajaxhref',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.clickid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.courseInfoId',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.courseState',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.currenthref',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.currentpagescreen',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.element_action',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.element_name',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.element_value',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.elementname',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.elemname',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.encrypted',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.encrypted_succ',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.enterRoomTime',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.eventid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.exp_tag',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.from_origin',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.gdt_vid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.grade',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.gradeId',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.hotUrlData',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.hoturlData',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.isNewUser',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.isQrCode',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.isReg',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.leaveRoomTime',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.log_admin_id',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.log_admin_version',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.logorder',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.p_hight',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.pageKey',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.pageuid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.picturebooksid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.platformid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.posterId',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.posx',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.posy',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.projectid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.qualification',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.rsd',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.ruleId',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.ruleid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.sessionid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.sgroupid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.site_id',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.source',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.sourceId',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.sourceid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.themeid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.token',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.unionid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.userLabel',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.userid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.wxmini',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'data.xeswx_sourceid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'hostname',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'ip.cid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'ip.cip',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'ip.cname',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'logid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'pageid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'prelogid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'sessid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'timestamp',
+              type: 'long',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'ua',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'userid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'xes_dj_client_ip',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+            {
+              name: 'xesid',
+              type: 'text',
+              index: false,
+              search: false,
+            },
+          ],
+          report_format: 0,
+          es_alias: '',
+          depart_id: 21,
+          project: 2,
+          is_delete: 0,
+          referer: 'activity.xueersi.com,app.xueersi.com,www.xessuyang.com',
+          template_id: 0,
+          created_at: '2020-06-24 17:01:28',
+          updated_at: '2021-09-27 18:21:47',
+          kafka_active: 0.521,
+          kafka_cluster: 'sjhl-log-talkafka-jmx',
+          es_index: '41922c00-360f-11eb-9a47-2d0d9519c03f',
+          talkafka_cluster: 'ali-log-talkafka-jmx',
+          oss_path: '/21/basiclog-interactive_1001132/%Y%m%d/',
+          is_prase: 1,
+          is_hdfs: 1,
+          is_oss: 1,
+          storage_cycle: 3,
+          data_model: 3,
+          eci: 0,
+          diagnosis: 1,
+          white_list: null,
+          hdfs_cycle: 4,
+          elasticsearch_cycle: 3,
+          log_level: 1,
+          is_es: 1,
+          elasticsearch_remarks: '',
+          service_name: '活动埋点日志',
+          department: '运营研发部',
+          app_domain: '',
+          ip:
+            '172.17.119.40\n172.17.119.41\n172.17.119.42\n172.17.119.43\n172.17.119.44\n172.17.119.45\n172.17.15.149\n172.17.15.150\n172.17.15.151\n172.17.15.152\n172.17.15.153\n172.17.15.154',
+          hostname: '',
+          sn: '',
+          kafka_url:
+            'http://mq.xesv5.com/grafana/d/H2IF1_xMz/tal-kafka-topic-jmx?orgId=1&var-cluster=sjhl-log-talkafka-jmx&var-topic=basiclog-interactive_1001132',
+          kibana_url:
+            "https://basiclog.xesv5.com/app/kibana#/discover?_g=()&_a=(columns:!(_source),index:'41922c00-360f-11eb-9a47-2d0d9519c03f',interval:auto,query:(language:lucene,query:''),sort:!('@timestamp',desc))",
+          collection: 0,
+          ip_count: 12,
+          roles: [
+            {
+              id: 1494,
+              service_id: 751,
+              uid: '142600',
+            },
+            {
+              id: 1677,
+              service_id: 751,
+              uid: '133000',
+            },
+            {
+              id: 3074,
+              service_id: 751,
+              uid: '164023',
+            },
+            {
+              id: 3075,
+              service_id: 751,
+              uid: '101989',
+            },
+            {
+              id: 4078,
+              service_id: 751,
+              uid: '046731',
+            },
+            {
+              id: 6634,
+              service_id: 751,
+              uid: '115869',
+            },
+            {
+              id: 8263,
+              service_id: 751,
+              uid: '087763',
+            },
+            {
+              id: 8534,
+              service_id: 751,
+              uid: '213185',
+            },
+            {
+              id: 8535,
+              service_id: 751,
+              uid: '215994',
+            },
+            {
+              id: 8664,
+              service_id: 751,
+              uid: '081213',
+            },
+            {
+              id: 9384,
+              service_id: 751,
+              uid: '046731',
+            },
+            {
+              id: 9385,
+              service_id: 751,
+              uid: '046731',
+            },
+            {
+              id: 10499,
+              service_id: 751,
+              uid: '080861',
+            },
+            {
+              id: 10583,
+              service_id: 751,
+              uid: '085510',
+            },
+            {
+              id: 12403,
+              service_id: 751,
+              uid: '297542',
+            },
+            {
+              id: 13110,
+              service_id: 751,
+              uid: '091378',
+            },
+            {
+              id: 13491,
+              service_id: 751,
+              uid: '082281',
+            },
+            {
+              id: 13619,
+              service_id: 751,
+              uid: '171609',
+            },
+            {
+              id: 13894,
+              service_id: 751,
+              uid: '090697',
+            },
+            {
+              id: 14842,
+              service_id: 751,
+              uid: '285376',
+            },
+            {
+              id: 16018,
+              service_id: 751,
+              uid: '288343',
+            },
+            {
+              id: 17607,
+              service_id: 751,
+              uid: '021455',
+            },
+            {
+              id: 18171,
+              service_id: 751,
+              uid: '264622',
+            },
+            {
+              id: 18661,
+              service_id: 751,
+              uid: '252421',
+            },
+          ],
+        },
+      }
+      var list = res.data.mappings
+
+      var data = {
+        data: {
+          log_admin_id: 'dddddddd',
+          log_admin_version: 'ddddd',
+          sessionid: '99999',
+          action: '',
+          clickid: '',
+          element_action: '',
+          element_code: '',
+          element_name: '',
+          element_value: '',
+          pagename: '',
+          sGroupId: '',
+          sourceid: '',
+        },
+        input: { type: '' },
+        prospector: { type: '' },
+        referrer: '',
+        client_sessionid: '',
+      }
+
+      function initData(list, data) {
+        var obj = { data: {} }
+        Object.assign(obj, data)
+        list.forEach((item) => {
+          const a = item.name.split('data.')
+          let value = ''
+          if (item.type == 'text') {
+            value = ''
+          } else if (item.type == 'long') {
+            value = 2
+          } else if (item.type == 'float') {
+            value = 1.1
+          } else if (item.type == 'boolean') {
+            value = false
+          } else if (item.type == 'date') {
+            value = `2021-06-09 14:16:19.391`
+          }
+          if (a.length > 1) {
+            const key = item.name.split('data.')[1]
+            obj.data[key] = value
+          } else {
+            obj[item.name] = value
+          }
+        })
+        return obj
+      }
+
+      var s = initData(list, data)
+      console.log(s)
+      console.log(JSON.stringify(s))
+    </script>
+  </body>
+</html>
